@@ -48,7 +48,7 @@ function LogoutNav() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <Link href={"/"} className="flex flex-shrink-0 items-center">
-              <h1 className="text-gray-200 hover:text-purple-500 font-semibold text-xl hover:scale-95 cursor-pointer">
+              <h1 className="text-gray-200 hover:text-gray-500 font-semibold text-xl hover:scale-95 cursor-pointer">
                 Decision Hub
               </h1>
             </Link>
@@ -56,19 +56,19 @@ function LogoutNav() {
               <div className="flex items-center space-x-4">
                 <Link
                   href={"/About"}
-                  className="text-gray-300 hover:scale-95 hover:text-purple-500 rounded-md px-3 py-2 text-[1rem] font-medium"
+                  className="text-gray-300 hover:scale-95 hover:text-gray-500 rounded-md px-3 py-2 text-[1rem] font-medium"
                 >
                   About
                 </Link>
                 <Link
                   href={"/Manual"}
-                  className="text-gray-300 hover:scale-95 hover:text-purple-500 rounded-md px-3 py-2 text-[1rem] font-medium"
+                  className="text-gray-300 hover:scale-95 hover:text-gray-500 rounded-md px-3 py-2 text-[1rem] font-medium"
                 >
                   Manual
                 </Link>
                 <Link
                   href={"/Feedback"}
-                  className="text-gray-300 hover:scale-95 hover:text-purple-500 rounded-md px-3 py-2 text-[1rem] font-medium"
+                  className="text-gray-300 hover:scale-95 hover:text-gray-500 rounded-md px-3 py-2 text-[1rem] font-medium"
                 >
                   Feedback
                 </Link>
